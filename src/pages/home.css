@@ -1,0 +1,170 @@
+
+.Container {
+  width: 100%;
+}
+
+.section,.title{
+  background: linear-gradient(135deg, #1f2937, #0f766e);
+  color: white;
+  padding: 80px 40px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.content h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* BUTTONS */
+
+.pbtn {
+  background: white;
+  color: #1f2937;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 2px 2px 3px whitesmoke;
+}
+
+.pbtn:hover {
+  opacity: 0.9;
+}
+
+.sbtn{
+  background: white;
+  color: #1f2937;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 2px 2px 3px whitesmoke;
+}
+
+.sbtn:hover {
+ opacity: 0.9;
+}
+
+/* STATS */
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+  
+}
+
+.statbox ,.contact {
+    text-align: center;
+}
+
+.statbox h2 {
+  font-size: 32px;
+  color: #0f766e;
+}
+
+/* FEATURES */
+
+.features{
+  padding: 60px 0;
+}
+
+.features h2,.about h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.feature{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: #0f766e;
+  color: white;
+  padding: 25px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+
+
+.action {
+  background: #0f766e;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+/* FOOTER */
+
+.btn{
+  border-radius: 10px;
+  color: whitesmoke;
+  background-color: #1f2937;
+  box-shadow: 2px 2px 3px whitesmoke;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  color: #666;
+}
+
+/* LOGIN FORM */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  margin: auto;
+  gap: 15px;
+}
+
+.login-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  color: #333;
+}
+
+.login-form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-form button {
+  background: #0f766e;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  opacity: 0.9;
+}
